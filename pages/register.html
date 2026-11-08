@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/auth.css" />
+
+</head>
+<body class="d-flex align-items-center justify-content-center">
+
+
+<form class="form-container rounded-4 " method="post" action="../php/register.php">
+    <div
+            class="logo-form d-flex align-items-center justify-content-center  mt-0"
+    >
+        <div class="logo-form-descriptipn d-flex flex-column text-start">
+            <p class="fw-bold fs-2 m-0 p-0">TechZone</p>
+            <p class="second-p-description-logo text-secondary m-0 p-0">
+                Technology for a Better Tomorrow
+            </p>
+        </div>
+        <img class="cube-image" src="../images/cube.png" />
+    </div>
+    <div
+            class="logo-complete-description d-flex flex-column align-items-center justify-content-center mt-3"
+    >
+        <p class="fw-bold fs-4">در Techzone ثبت نام کنید</p>
+        <p class="complete-p text-center text-secondary">
+
+            می توانید با ثبت نام حساب جدید ایجاد کنید
+        </p>
+    </div>
+    <div class="inputs g-2">
+        <div class="d-flex gap-4 justify-content-center">
+            <button class="bg-primary h-25 w-25 col-lg-4 border-0 p-1 text-light" type="button">
+                ثبت نام
+            </button>
+            <input
+                    class="name-family border-style col-lg-6  py-1 text-secondary  border-style"
+                    name="name-family"
+                    type="text"
+                    placeholder="نام و نام خانوادگی"
+            />
+        </div>
+        <div class="two-inputs d-flex flex-column mt-3">
+            <input class="mx-5 border-style py-1" placeholder="ایمیل یا شماره موبایل" type="text" name="email-phone"/>
+            <input class="mx-5 mt-3  border-style py-1" placeholder="رمز عبور" type="text"  name="password"/>
+        </div>
+        <div
+                class="d-flex justify-content-between mx-5 my-3 align-items-center"
+        >
+
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="bg-primary w-100 mx-5 border-0 text-light fw-bold rounded-3 py-1" name="submit">اتمام ثبت نام</button>
+        </div>
+    </div>
+    <div
+            class="login-whit-google-apple d-flex flex-column justify-content-center gap-2 mt-1"
+    >
+        <button class="mx-5 bg-body  border-style py-1 " type="button">ورود با گوگل</button>
+        <button class="mx-5 bg-body  border-style py-1" type="button">ورود با اپل</button>
+    </div>
+
+</form>
+
+
+
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"
+></script>
+</body>
+</html>

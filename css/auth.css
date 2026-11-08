@@ -1,0 +1,83 @@
+.body-image {
+}
+.form-container {
+    top: 5%;
+    left: 5%;
+    height: 80%;
+    width: 36%;
+    background-color: rgb(253, 253, 253);
+}
+.cube-image {
+    height: 9%;
+    width: 9%;
+}
+.second-p-description-logo {
+    font-size: 10px;
+}
+.complete-p {
+    font-size: 13px;
+}
+.border-style {
+    border: 1px solid #ddd;
+}
+.right-cube {
+    height: 7%;
+    width: 7%;
+}
+@media (max-width: 576px) {
+    body {
+        overflow-y: auto !important;
+        overflow-x: hidden;
+    }
+
+    .body-image {
+        display: none;
+    }
+
+    .form-container {
+        position: relative !important;
+
+        width: calc(100% - 30px);
+        max-width: none;
+
+        height: auto;
+        min-height: calc(100vh - 30px);
+
+        top: auto;
+        left: auto;
+
+        margin: 15px auto;
+        padding: 20px 15px;
+
+        box-sizing: border-box;
+        height: 100vh;
+    }
+
+    .inputs .mx-5,
+    .login-whit-google-apple .mx-5 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .inputs,
+    .login-whit-google-apple {
+        width: 100%;
+    }
+
+    .inputs input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .login-whit-google-apple button {
+        width: 100%;
+    }
+
+    .complete-p {
+        font-size: 12px;
+    }
+
+    .second-p-description-logo {
+        font-size: 9px;
+    }
+}

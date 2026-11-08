@@ -1,0 +1,21 @@
+.side-bar {
+    height: 100vh;
+    background-color: #14213d;
+    width: 22%;
+}
+.bluebg-cube {
+    height: 16%;
+    width: 16%;
+}
+.p2-logo {
+    color: darkgrey;
+}
+.cardd {
+    background-color: #14213d;
+}
+.sider-btnn:hover {
+    background-color: #1341a3;
+}
+.logout-btn {
+    margin-top: 30%;
+}
